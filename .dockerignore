@@ -1,0 +1,7 @@
+target/
+.git/
+.gitignore
+data/
+examples/
+README.md
+Dockerfile
