@@ -1,0 +1,25 @@
+[package]
+name = "nfs_serve"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+keywords.workspace = true
+readme.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+publish.workspace = true
+
+[dependencies]
+async-trait = { workspace = true }
+num-traits = { workspace = true }
+num-derive = { workspace = true }
+filetime = { workspace = true }
+byteorder = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+tracing-subscriber = { workspace = true }
+lazy_static.workspace = true
